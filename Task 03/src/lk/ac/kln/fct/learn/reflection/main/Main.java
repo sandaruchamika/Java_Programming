@@ -13,7 +13,7 @@ public class Main {
 			Field field = clazz.getSuperclass().getDeclaredField("name");
 			field.setAccessible(true);
 			field.set(rectangle, "Rectangle");
-			} catch (Exception e) {			
+		} catch (Exception e) {			
 			e.printStackTrace();
 		}
 		System.out.println("Shape name: "+ rectangle.getName());
