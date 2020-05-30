@@ -1,7 +1,7 @@
 package lk.ac.kln.fct.learn.generics.core;
 
 import java.util.ArrayList;
-import java.util.NoSuchElementException;
+
 
 public class Inventory<K, V> {
 	private ArrayList<Entry<K, V>> entries = new ArrayList<>();
@@ -29,7 +29,9 @@ public class Inventory<K, V> {
 				return e;
 			}
 		}
-		throw new NoSuchElementException();
+		return null;
+//		return entries.stream().filter((entry) -> entry.getKey().equals(key)).findAny().get();
+
 	}
 
 	public int getEntryIndex(Entry<K, V> entry) {
