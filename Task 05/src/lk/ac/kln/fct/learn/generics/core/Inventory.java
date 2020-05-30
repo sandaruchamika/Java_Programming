@@ -30,7 +30,8 @@ public class Inventory<K, V> {
 			}
 		}
 		return null;
-//		return entries.stream().filter((entry) -> entry.getKey().equals(key)).findAny().get();
+//		return entries.stream().filter((entry) -> entry.getKey().equals(key)).findAny().get(); - Test
+		
 	}
 
 	public int getEntryIndex(Entry<K, V> entry) {
