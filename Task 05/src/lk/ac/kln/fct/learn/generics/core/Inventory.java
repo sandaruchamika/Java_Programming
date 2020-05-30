@@ -29,7 +29,8 @@ public class Inventory<K, V> {
 				return e;
 			}
 		}
-		throw new NoSuchElementException();
+		return null;
+//		return entries.stream().filter((entry) -> entry.getKey().equals(key)).findAny().get();
 	}
 
 	public int getEntryIndex(Entry<K, V> entry) {
