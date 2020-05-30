@@ -54,7 +54,6 @@ public class Main {
 		} else {
 			System.out.println("The entry vlaues taken by key and the index are not equal.");
 		}
-
 	}
 	
 	public static void inventoryTest_03() {
@@ -88,5 +87,4 @@ public class Main {
 			System.out.println("Remove all method is not working properly.");
 		}
 	}
-
 }
