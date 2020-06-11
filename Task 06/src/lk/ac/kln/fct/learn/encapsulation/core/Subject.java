@@ -23,7 +23,7 @@ public class Subject implements Cloneable {
 			for(Degree degree: allowedDegrees) {
 				allowDegreeCopy.add(degree.clone());
 			}	            
-        subject.allowedDegrees = allowDegreeCopy;
+			subject.allowedDegrees = allowDegreeCopy;
 		} catch (CloneNotSupportedException e) {
 			e.printStackTrace();
 		}

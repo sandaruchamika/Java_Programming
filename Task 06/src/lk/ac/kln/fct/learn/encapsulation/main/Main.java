@@ -8,7 +8,6 @@ import lk.ac.kln.fct.learn.encapsulation.core.Degree;
 import lk.ac.kln.fct.learn.encapsulation.core.Student;
 import lk.ac.kln.fct.learn.encapsulation.core.Subject;
 
-//You can't change anything in the class.
 public class Main {
 	private final static String COMP102 = "COMP102";
 	private final static String COMP103 = "COMP103";
